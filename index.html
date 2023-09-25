@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Linking Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="wrapper">
+        <main id="container">
+            <article id="text">
+                <h1 class="title">Quote of the Day!</h1>
+                <blockquote class="text-container">
+                    <i class="fa-solid fa-quote-left" id="quote-left"></i>
+                    <p id="quote">First Step is the stepping stone for success!</p>
+                    <i class="fa-solid fa-quote-right" id="quote-right"></i>
+                        <cite title="Author" class="blockquote-footer">Author</cite>
+                </blockquote>
+
+            </article>
+            <aside id="btn">
+                <button class="icon sound"><i class="fa-solid fa-volume-high"></i></button>
+                <button class="icon copy" title="copy to clipboard"><i class="fa-solid fa-copy"></i></button>
+                <button class="icon twitter"><i class="fa-brands fa-twitter"></i></button>
+                <button class="next-icon" onclick="nextQuote()">New Quote</button>
+            </aside>
+        </main>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
